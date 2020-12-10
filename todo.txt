@@ -1,0 +1,12 @@
+-- change the theme of the bottom navigation
+add loading indicators for (login - register - choose blood type)
+-- Get API key from google and restrict it to just the current application and maps API
+-- Get the map to function
+-- Get current device's location using GPS
+-- Zoom with animation to the current location beside adding a marker
+-- Catch the exception thrown when the user does not turn on GPS
+// Add Hospitals and their informations (this cannot be done without the fund)
+design the Encyclopedia section
+design the blood bank section
+design the online doctor section
+add navigation drawer that contains profile info (with trigger button)

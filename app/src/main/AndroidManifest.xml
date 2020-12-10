@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.medicaldroid">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:name="com.therapdroid.MedicalDroidApplication"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:allowBackup,android:label">
+        <service
+            android:name="com.therapdroid.ui.home.BloodBank.TrackingService"
+            android:enabled="true"
+            android:exported="true"></service>
+
+        <activity
+            android:name="com.therapdroid.ui.chat.ChatActivity"
+            android:label="Online Doctor"
+            android:parentActivityName="com.therapdroid.ui.home.HomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name="com.therapdroid.ui.SettingsActivity" />
+        <activity
+            android:name="com.therapdroid.ui.EmojifierActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_emojifier"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"></activity>
+        <activity
+            android:name="com.therapdroid.ui.home.encyclopedia.static_info.CommonDiseasesActivity"
+            android:label="Common Diseases" />
+        <activity
+            android:name="com.therapdroid.ui.home.encyclopedia.static_info.VitaminsActivity"
+            android:label="Vitamins" />
+        <activity android:name="com.therapdroid.ui.home.encyclopedia.static_info.BabyWrongInfoActivity" />
+        <activity android:name="com.therapdroid.ui.home.encyclopedia.static_info.BabyVaccinationActivity" />
+        <activity android:name="com.therapdroid.ui.home.encyclopedia.static_info.BabyWrongHabitsActivity" />
+        <activity android:name="com.therapdroid.ui.home.encyclopedia.static_info.BabyNutritionActivity" />
+        <activity
+            android:name="com.therapdroid.ui.home.encyclopedia.static_info.FortyDaysToTwoYearsActivity"
+            android:label="1 - 40 Days" />
+        <activity
+            android:name="com.therapdroid.ui.home.encyclopedia.static_info.OneToFortyDaysActivity"
+            android:label="40 Days - two years" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name="com.therapdroid.ui.home.HomeActivity"
+            android:label="Home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.therapdroid.ui.LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.therapdroid.ui.RegisterActivity"
+            android:label="Register"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name="com.therapdroid.ui.results.ResultsActivity" />
+        <activity
+            android:name="com.therapdroid.ui.home.BloodBank.AddRequestActivity"
+            android:label="Add new Request" />
+    </application>
+
+</manifest>

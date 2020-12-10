@@ -1,0 +1,142 @@
+<resources>
+    <string name="app_name">MedicalDroid</string>
+
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_map">Hospitals Map</string>
+
+
+    <string name="pick_type">Pick your blood type !</string>
+
+    <!-- Blood types array -->
+    <string-array name="BloodTypes">
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </string-array>
+
+    <!-- Http error message -->
+    <string name="error_message">Something went wrong..Please, try again</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- GPS instructions -->
+    <string name="gps_instructions">
+        Your GPS Settings is set to \'Off\', Please Enable GPS and then click \'Confirm\'
+    </string>
+
+    <!-- User has submitted a blood request -->
+    <string name="blood_request_submitted_text">
+        You have submitted a blood request, \n
+        Click the button below to cancel it
+    </string>
+
+    <!-- Why the Location permission needed message -->
+    <string name="location_permission_explanation">
+        This permission is crucial to use the blood bank functionality
+    </string>
+
+    <string name="forty_two_baby_nutrition">
+        يحتاج الأطفال حديثو الولادة إلى كميات كبيرة من الغذاء، لذلك لا بد من إرضاعهم بين 8 إلى 12 مرة كل 24 ساعة خلال الأسبوعين الأولين بعد الولادة.
+وخلال فترة الرضاعة، ينبغي على الأم أن تراقب طفلها كي ترى إذا كان يبدي أي إشارات تدل على حاجته للرّضاعة. وثمّة بعض الإرشادات التي ينبغي أن تتقيد بها الأم، وهي على النحو التالي:
+    1. إطعام الطفل على مدار اليوم، أي في الليل والنهار.
+    2. في حال كان الطفل نائما، فينبغي على الأم إيقاظه كل ثلاث ساعات من أجل إرضاعه.
+    3. الانتباه إلى بكاء الطفل، فهو يعد إشارةً على إحساسه بالجوع.
+تستغرق معظم جلسات الرّضاعة خلال الفترة الأولى من الولادة بين 20 إلى 45 دقيقة. ويرجع سبب ذلك إلى كون نشاط الأطفال حديثي الولادة قليلًا جدًّا. ولذلك ينبغي على الأم أن تتحلّى بالصّبر والمثابرة؛ في البداية، ينبغي أن ترضع الطفل من أحد الثديين، وألا تتوقّف عن إرضاعه حتى تشعر بأنه قد أُصيب بالنعاس والاسترخاء، وبأن أصابع يديه لم يعودوا على شكل قبضة. وبعد ذلك، تنقله إلى الثّدي الآخر، وتستمرّ بعملية الرضاعة حتى يتوقف الطفل عن تناول الحليب. ويتغذى معظم الأطفال من كلا الثديين، ولكن البعض منهم قد يكتفي بعد الرضاعة من ثدي واحد فقط. ومن الطبيعي أن يرضع بعض الأطفال عدّة مرات خلال أوقات قريبة من بعضها، ومن ثم يُمضون عدّة ساعات بدون أي حاجةٍ للرّضاعة مرةً أخرى، ولذا لا ينبغي على الأم أن تشعر بالقلق حيال ذلك. وخلال الأيام الأولى، قد يرضع الأطفال حديثو الولادة كل ساعة، أو حتى عدة مرات في الساعة الواحدة، ولا سيما خلال المساء وساعات الليل. من ناحية أخرى، ثمّة بعض الأمور التي تعرف الأم من خلالها أن طفلها يحصل على كمية كافية من الحليب.
+    </string>
+
+    <string name="forty_two_baby_wrong_habits_kissing">
+         مرض الطفل. وفي مقدمة تلك الأمراض التي تصيب طفلك هي التهاب اللسان الفطري، وهو عبارة عن ميكروب عنقودي ينتشر في جميع أنحاء فم الطفل، ويتسبب في التهاب الحلق والفم واللوزتين، وتنتشر على شكل بثور في الوجه وحول الفم والأنف، وكذلك تسبب القبلات التهاب الغدة النكافية والحصبة العادية والحصبة الألمانية. ويمكن أن يصاب الطفل بالفيروسات الكبدية وكذلك الحمى الشوكية، والتهاب الغدد اللعابية للطفل، أو أن يتسبب في النزلات المعوية للأطفال وكذلك قد تنقل القبلات فيروس “الهربس” للطفل وهو عبارة عن التهابات شديدة في الشفتين تظل معه طوال مدة الطفولة بأكملها وربما فترة الشباب. وينصح الأطباء بتجنب تقبيل الأطفال في المراحل الأولى من أعمارهم والاكتفاء بتقبيل الطفل على يده أو جبهته حيث تموت الجراثيم سريعا ولا تنمو في هذه المناطق
+    </string>
+
+    <string name="forty_two_baby_wrong_habits_shaking">
+         حوالي ثلث الأطفال الرضع الذين يتعرضون لهذا يموتون والثلث الآخر يشفى تماما وحوالي 30% إلى 40% يصبحون معاقين إعاقة دائمة. هزّ الطفل بعنف يؤثر على دماغه، وقد يتسبب في نزيف الدماغ أو تورمها ويتعرض للطفل للأعراض مثل الإعياء الشديد، والخمول والكسل، والقيء، والضعف الشديد، وفقد الوعي، وفقدان الشهية، وصعوبة في التنفس وظهور بقع دموية في العين. وأيضا من العادات المضرة ما يفعله الآباء عندما يمسكون أطفالهم من أكتافهم أو من أذرعهم ويهزونهم، فهي تتحرك طبقا لذلك رؤوسهم إلى الأمام والى الخلف مما يسبب تحرك المخ داخل جمجمة الطفل، حيث أن الأطفال في هذا العمر هم الأكثر عرضة للإصابة بالحوادث بسبب لين عظامهم وضعفها في هذا العمر
+    </string>
+
+    <string name="forty_two_baby_wrong_habits_play">
+         حوالي ثلث الأطفال الرضع الذين يتعرضون لهذا يموتون والثلث الآخر يشفى تماما وحوالي 30% إلى 40% يصبحون معاقين إعاقة دائمة. هزّ الطفل بعنف يؤثر على دماغه، وقد يتسبب في نزيف الدماغ أو تورمها ويتعرض للطفل للأعراض مثل الإعياء الشديد، والخمول والكسل، والقيء، والضعف الشديد، وفقد الوعي، وفقدان الشهية، وصعوبة في التنفس وظهور بقع دموية في العين. وأيضا من العادات المضرة ما يفعله الآباء عندما يمسكون أطفالهم من أكتافهم أو من أذرعهم ويهزونهم، فهي تتحرك طبقا لذلك رؤوسهم إلى الأمام والى الخلف مما يسبب تحرك المخ داخل جمجمة الطفل، حيث أن الأطفال في هذا العمر هم الأكثر عرضة للإصابة بالحوادث بسبب لين عظامهم وضعفها في هذا العمر
+    </string>
+
+    <string name="forty_two_baby_wrong_habits_cleaners">
+        تلجأ الكثير من الأمهات إلى استخدام المطهرات القوية، والعناية القوية، بملابس الأطفال وتعطيرها بروائح نافذة، ولكنهم يجهلون خطورة ذلك على الجهاز التنفسي للأطفال. فالأطفال حديثي الولادة هم أكثر حساسية عن غيرهم، نظرا لكون الرئة آخر الأعضاء التى يكتمل نموها فى الجنين، وبالتالي يتأثر الجنين بصورة كبيرة بالمواد ذات الرائحة النفاذة.
+    </string>
+
+    <string name="forty_two_baby_wrong_habits_cry">
+        تشير الدراسات إلى أنه ليس صحيحا ترك الطفل يبكي طالما تتوافر له كل احتياجاته، وحثت الدراسات على ضرورة حمل الرضيع واحتضانه وتهدئة روعه، حيث تجنب الطفل الكثير من المشاكل النفسية والسلوكية خاصة في عامهم الأول مثل:
+العصبية وسرعة التعرض للتوتر والتمسك بالرأي
+    </string>
+
+    <string name="forty_two_baby_wrong_habits_slepp">
+        لان هذه العادة ترسخ فكره الاكل من اجل النوم وهو ما يسبب للام التعب الشديدفيما بعد لان طفلها لن ينام الا بالرضاعة مهما كبر
+    </string>
+
+    <string name="vaccination_first">
+        اليوم الأول للطفل التطعيم ضد الدرن:
+    </string>
+    <string name="vaccination_second">
+حقنة في الجلد أعلي الذراع الأيسر.
+التطعيم ضد شلل الأطفال (الجرعة الصفرية): نقطتين بالفم.
+ التطعيم ضد الالتهاب الكبدي (ب) (الجرعة الصفرية): حقنة بالعضل.    </string>
+    <string name="vaccination_third">
+        الطفل في عمر شهرين
+    </string>
+    <string name="vaccination_forth">
+         التطعيم ضد شلل الأطفال (الجرعة الأولي): نقطتين بالفم.
+ الطعم الخماسي (الجرعة الأولى): ضد الدفتريا والسعال الديكي والتيتانوس والالتهاب الكبدي “ب ”.
+(الإنفلونزا البكتيرية): حقنة واحدة بالعضل في الفخذ الأيمن.
+    </string>
+    <string name="vaccination_fifth">
+        الطفل في عمر 4 أشهر
+    </string>
+
+    <string name="vaccination_sixth">
+        التطعيم ضد شلل الأطفال (الجرعة الثانية): نقطتين بالفم.
+الطعم الخماسي (الجرعة الثانية) (ضد الدفتريا والسعال الديكي والتيتانوس والالتهاب الكبدي “ب ”).
+(الانفلونزا البكتيرية): حقنة واحدة بالعضل في الفخذ الأيمن.
+    </string>
+    <string name="vaccination_seventh">
+الطفل في عمر 6 أشهر
+
+    </string>
+    <string name="vaccination_eighth">
+ التطعيم ضد شلل الأطفال (الجرعة الثالثة): نقطتين بالفم.
+ الطعم الخماسي (الجرعة الثالثة): (ضد الدفتريا والسعال الديكي والتيتانوس والالتهاب الكبدي “ب ”.
+(الإنفلونزا البكتيرية): حقنة واحدة بالعضل في الفخذ الأيمن.
+    </string>
+    <string name="vaccination_ninth">
+الطفل في عمر 9 أشهر
+    </string>
+    <string name="vaccination_tenth">
+        التطعيم ضد شلل الأطفال (الجرعة الرابعة): نقطتين بالفم.
+    </string>
+
+    <string name="vaccination_eleventh">
+        الطفل في عمر 12 شهرا
+    </string>
+    <string name="vaccination_twelve">
+        
+    </string>
+
+    <string name="title_activity_emojifier">EmojifierActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+</resources>

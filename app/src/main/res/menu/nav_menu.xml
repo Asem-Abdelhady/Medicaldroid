@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_blood_bank"
+        android:icon="@drawable/ic_blood_bank_24dp"
+        android:title="Blood Bank" />
+
+    <item
+        android:id="@+id/action_online_doctor"
+        android:icon="@drawable/ic_online_doctor_white_24dp"
+        android:title="Online Doctor" />
+
+    <item
+        android:id="@+id/action_emojifier"
+        android:icon="@drawable/ic_tag_faces_white_24dp"
+        android:title="Emojifier" />
+
+    <item
+        android:id="@+id/action_encyclopedia"
+        android:icon="@drawable/ic_encyclopedia_white_24dp"
+        android:title="Encyclopedia" />
+
+    <item
+        android:id="@+id/action_profile"
+        android:icon="@drawable/profile_icon_24dp"
+        android:title="Profile" />
+
+</menu>

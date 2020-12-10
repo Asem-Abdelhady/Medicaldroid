@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "887338691586",
+    "firebase_url": "https://medicaldroid-9ca09.firebaseio.com",
+    "project_id": "medicaldroid-9ca09",
+    "storage_bucket": "medicaldroid-9ca09.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:887338691586:android:3468ab5f39f59118",
+        "android_client_info": {
+          "package_name": "com.therapdroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "887338691586-bpg6un173mr2s336tod95mhlhct7vrvm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALEpuklvIj48tBurdGBv4WduedYhENS1o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "887338691586-bpg6un173mr2s336tod95mhlhct7vrvm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

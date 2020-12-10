@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        style="@style/container_card"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="15dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/one_40days"
+                style="@style/encyclopedia_button"
+                android:text="1 - 40 Days" />
+
+            <TextView
+                android:id="@+id/forty_two"
+                style="@style/encyclopedia_button"
+                android:text="40 Days - 2 years" />
+
+            <TextView
+                android:id="@+id/vitamins"
+                style="@style/encyclopedia_button"
+                android:text="Vitamins" />
+
+
+            <TextView
+                android:id="@+id/common_diseases"
+                style="@style/encyclopedia_button"
+                android:text="Common diseases" />
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</FrameLayout>
